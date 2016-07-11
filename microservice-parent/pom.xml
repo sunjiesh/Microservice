@@ -4,6 +4,7 @@
 	<groupId>cn.com.sunjiesh.microservice</groupId>
 	<artifactId>microservice-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>Archetype - eurekaservice</name>
 	<url>http://maven.apache.org</url>
 
@@ -118,4 +119,7 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>microservice-eurekaserver</module>
+	</modules>
 </project>
