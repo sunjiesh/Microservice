@@ -61,10 +61,6 @@
 			<id>spring-milestones</id>
 			<url>http://repo.spring.io/milestone</url>
 		</repository>
-		<repository>
-			<id>maven-nexus</id>
-			<url>http://nexus.intra.mochui.net:8081/nexus/content/groups/public</url>
-		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
